@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="common">
+			<UniqueIdentifier>{EAA4EEB2-F1E6-AF49-8A92-EF510E424E68}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\common\GLUtilities.h">
+			<Filter>common</Filter>
+		</ClInclude>
+		<ClInclude Include="..\common\TextureManager.h">
+			<Filter>common</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\ch5_02.cpp" />
+		<ClCompile Include="..\common\GLUtilities.cpp">
+			<Filter>common</Filter>
+		</ClCompile>
+		<ClCompile Include="..\common\TextureManager.cpp">
+			<Filter>common</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>
